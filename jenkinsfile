@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        GIT_REPO = 'https://github.com/amitopenwriteup/cicd.git'
+        GIT_REPO = 'https://github.com/kkagg/cicd.git'
         GIT_BRANCH = 'master'
-        DOCKER_REGISTRY = 'localhost:5000'
+        DOCKER_REGISTRY = 'localhost:5001'
         IMAGE_NAME = 'newjenkinci'
         IMAGE_TAG = 'latest'
         DOCKERFILE_PATH = 'dockerfile'
