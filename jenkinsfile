@@ -5,7 +5,7 @@ pipeline {
         GIT_REPO = 'https://github.com/amitopenwriteup/cicd.git'
         GIT_BRANCH = 'master'
         DOCKER_REGISTRY = 'localhost:5000'
-        IMAGE_NAME = 'myimage'
+        IMAGE_NAME = 'newjenkinci'
         IMAGE_TAG = 'latest'
         DOCKERFILE_PATH = 'dockerfile'
     }
